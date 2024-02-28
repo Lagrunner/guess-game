@@ -27,9 +27,9 @@ def answer_checker(answer):
     global attempt
 
     if answer < x_number:
-        start_num = answer
+        start_num = answer + 1
     elif answer > x_number:
-        end_num = answer
+        end_num = answer - 1
 
     if answer == x_number:
         win = True
